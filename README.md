@@ -1,5 +1,7 @@
 ### Hi there 👋
 
+I'm currently working in my biggest personal project called Nalu. Check it out at [https://nalu.gitlab.com](https://nalu.gitlab.com)
+
 <!--
 **AlbGarciam/AlbGarciam** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
