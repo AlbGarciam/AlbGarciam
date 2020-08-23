@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-I'm currently working in my biggest personal project called Nalu. Check it out at [https://nalu.gitlab.com](https://nalu.gitlab.com)
+I'm currently working in my biggest personal project called Nalu. Check it out at [https://nalu.gitlab.io](https://nalu.gitlab.io)
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=AlbGarciam&show_icons=true)
 
