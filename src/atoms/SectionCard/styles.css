@@ -1,0 +1,37 @@
+.section-card p {
+    text-align: right;
+    font-size: 3.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.section-card {
+    width: 100%;
+    padding: 60px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column-reverse;
+}
+
+.section-card > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-card.about {
+    background-color: #FFFFFF;
+    color: #1B1B1A;
+    flex: 2;
+}
+
+.section-card.projects {
+    background-color: #C19649;
+    color: #FFFFFF;
+    flex: 3;
+}
+
+.section-card.contact {
+    background-color: #1B1B1A;
+    color: #FFFFFF;
+    flex: 2
+}

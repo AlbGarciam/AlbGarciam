@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "Portfolio-SemiBold";
+    src: url("../fonts/Averta-Semibold.otf");
+}
+
+@font-face {
+    font-family: "Portfolio";
+    src: url("../fonts/Averta.otf");
+}
+
+@font-face {
+    font-family: "Portfolio-Bold";
+    src: url("../fonts/Averta-Bold.otf");
+}
+
+.text-bold {
+    font-family: "Portfolio-Bold" !important;
+}
+
+.text-semibold {
+    font-family: "Portfolio-SemiBold" !important;
+}
+
+.text-regular {
+    font-family: "Portfolio" !important;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}

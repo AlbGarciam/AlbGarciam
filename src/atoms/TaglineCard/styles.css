@@ -1,0 +1,38 @@
+.tagline-card > p {
+    text-align: left;
+    font-size: 1.5rem;
+    color: #C19649;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding: 0 5px;
+}
+
+.tagline-card {
+    background-color: #0D2A29;
+    width: 100%;
+    padding: 60px;
+    display: flex;
+    align-items: flex;
+    flex-direction: column-reverse;
+    flex: 3;
+}
+
+.tagline-card > div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.tagline-card > div > p {
+    text-align: left;
+    font-size: 4.5rem;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.tagline-card > div > p:last-child {
+    margin-top: -20px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #ffffff;
+}
