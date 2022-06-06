@@ -1,6 +1,6 @@
 .tagline-card > p {
     text-align: left;
-    font-size: 1.5rem;
+    font-size: 1.5em;
     color: #C19649;
     margin-top: 10px;
     margin-bottom: 0;
@@ -10,7 +10,7 @@
 .tagline-card {
     background-color: #0D2A29;
     width: 100%;
-    padding: 60px;
+    padding: min(60px, 5%);
     display: flex;
     align-items: flex;
     flex-direction: column-reverse;
@@ -25,7 +25,7 @@
 
 .tagline-card > div > p {
     text-align: left;
-    font-size: 4.5rem;
+    font-size: 4.5em;
     color: #ffffff;
     margin: 0;
     padding: 0;

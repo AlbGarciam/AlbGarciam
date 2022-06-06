@@ -1,13 +1,13 @@
 .section-card p {
     text-align: right;
-    font-size: 3.5rem;
+    font-size: 3.5em;
     margin: 0;
     padding: 0;
 }
 
 .section-card {
     width: 100%;
-    padding: 60px;
+    padding: min(60px, 5%);
     display: flex;
     align-items: flex-end;
     flex-direction: column-reverse;
