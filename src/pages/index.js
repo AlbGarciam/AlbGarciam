@@ -1,4 +1,5 @@
 import * as React from "react";
+import { navigate } from "gatsby";
 import SectionCard from "../atoms/SectionCard";
 import TaglineCard from "../atoms/TaglineCard";
 import "./index.css";
@@ -14,6 +15,7 @@ export default class IndexPage extends React.Component {
 
   onContactClicked() {
     console.log("Contact tapped");
+    navigate("/404");
   }
 
   render() {
