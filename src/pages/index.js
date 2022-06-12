@@ -1,48 +1,22 @@
 import * as React from "react";
-import { navigate } from "gatsby";
-import SectionCard from "../atoms/SectionCard";
-import TaglineCard from "../atoms/TaglineCard";
 import "./index.css";
+import "../css/typography.css";
+import NavBar from "../molecules/NavBar";
 
 export default class IndexPage extends React.Component {
-  onAboutClicked() {
-    console.log("About tapped");
-  }
-
-  onProjectsClicked() {
-    console.log("Project tapped");
-  }
-
-  onContactClicked() {
-    console.log("Contact tapped");
-    navigate("/404");
-  }
-
   render() {
     return (
-      <main className="main">
-        <div className="top-group">
-          <TaglineCard />
-          <SectionCard
-            type="about"
-            title="About"
-            subtitle="Me"
-            onClick={this.onAboutClicked.bind(this)}
-          />
-        </div>
-        <div className="bottom-group">
-          <SectionCard
-            type="projects"
-            title="My"
-            subtitle="projects"
-            onClick={this.onProjectsClicked.bind(this)}
-          />
-          <SectionCard
-            type="contact"
-            title="Contact"
-            subtitle="Me"
-            onClick={this.onContactClicked.bind(this)}
-          />
+      <main className="home-main">
+        <NavBar light={false} />
+        <div className="tagline-container">
+          <div className="circle" />
+          <div className="text-container">
+            <h1 className="left-text text-bold">The way I</h1>
+            <div className="right-text-container">
+              <h2 className="right-text text-bold">code</h2>
+              <h2 className="right-text text-bold">work</h2>
+            </div>
+          </div>
         </div>
       </main>
     );
