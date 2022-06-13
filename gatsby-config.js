@@ -12,7 +12,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        icon: "src/images/logo-dark.svg",
+        icon: "src/images/logo-light.svg",
       },
     },
     "gatsby-plugin-sharp",

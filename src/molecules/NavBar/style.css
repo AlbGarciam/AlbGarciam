@@ -50,3 +50,25 @@
     justify-content: space-between;
     align-items: center;
 }
+
+.nav-bar-items-container .nav-bar-action-icon {
+    object-fit: contain;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.nav-bar-items-container.expanded #close {
+    display: block;
+}
+
+.nav-bar-items-container.expanded #hamburger {
+    display: none;
+}
+
+.nav-bar-items-container #close {
+    display: none;
+}
+
+.nav-bar-items-container #hamburger {
+    display: block;
+}
