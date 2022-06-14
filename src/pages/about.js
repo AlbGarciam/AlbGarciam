@@ -6,6 +6,8 @@ import SectionTitle from "../atoms/SectionTitle";
 import about from "../json/about";
 import ContactFooter from "../molecules/ContactFooter";
 import PortfolioButton from "../atoms/PortfolioButton";
+import SubsectionTitle from "../atoms/SubsectionTitle";
+import JobPosition from "../atoms/JobPosition";
 
 export default class AboutPage extends React.Component {
   onGetResumeTapped() {}
@@ -29,6 +31,23 @@ export default class AboutPage extends React.Component {
               title="Get CV/Resume"
               onClick={this.onGetResumeTapped.bind(this)}
             />
+          </div>
+        </div>
+        <div className="about-container">
+          <SubsectionTitle
+            title={`My
+              career`}
+            subtitle="Since 2015"
+          />
+          <div className="about-column">
+            {about.jobs.map((element) => {
+              return (
+                <JobPosition
+                  title={element.title}
+                  description={element.description}
+                />
+              );
+            })}
           </div>
         </div>
         <ContactFooter />
