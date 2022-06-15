@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "Portfolio-Medium";
+    src: url("../fonts/NeueMontreal-Medium.otf");
+}
+
+@font-face {
+    font-family: "Portfolio";
+    src: url("../fonts/NeueMontreal-Regular.otf");
+}
+
+@font-face {
+    font-family: "Portfolio-Bold";
+    src: url("../fonts/NeueMontreal-Bold.otf");
+}
+
+@font-face {
+    font-family: "Portfolio-Light";
+    src: url("../fonts/NeueMontreal-Light.otf");
+}
+
+.text-bold {
+    font-family: "Portfolio-Bold" !important;
+}
+
+.text-medium {
+    font-family: "Portfolio-Medium" !important;
+}
+
+.text-regular {
+    font-family: "Portfolio" !important;
+}
+
+.text-light {
+    font-family: "Portfolio-Light" !important;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+@media screen and (max-width: 1200px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 6px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    html {
+        font-size: 4px;
+    }
+}

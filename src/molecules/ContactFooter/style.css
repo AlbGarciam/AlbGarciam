@@ -1,0 +1,26 @@
+.contact-footer {
+    background-color: #ED2536;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-footer section {
+    font-size: 5rem;
+    color: #ffffff;
+    width: 60%;
+    margin: 3rem 0;
+}
+
+.contact-footer .contact-footer-align {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.contact-footer .contact-footer-align .contact-footer-container {
+    margin: 0 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10rem;
+}
