@@ -25,8 +25,8 @@ export default class NavBar extends React.Component {
   getLargeNavBar() {
     return (
       <div className="nav-bar-items-container">
-        <NavBarItem title="Projects" destination="/projects" />
-        <NavBarItem title="Blog" destination="/blog" />
+        {/* <NavBarItem title="Projects" destination="/projects" /> */}
+        {/* <NavBarItem title="Blog" destination="/blog" /> */}
         <NavBarItem title="About" destination="/about" />
         <NavBarItem title="Contact" destination="/contact" />
       </div>
