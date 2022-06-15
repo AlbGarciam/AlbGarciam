@@ -1,0 +1,49 @@
+body {
+    background-color: #EEEEF0;
+}
+
+.contact-main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8rem;
+}
+
+.contact-main>.contact-container {
+    display: flex;
+    flex-direction: row;
+    max-width: 1500px;
+    margin: 0 2rem;
+    gap: 6rem;
+    color: #6C6C6C;
+}
+
+.contact-main>.contact-container>.basic {
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+}
+
+.contact-main>.contact-container>.social-media {
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+}
+
+@media screen and (max-width: 720px) {
+    .contact-main>.contact-container>.basic {
+        flex-direction: column;
+        gap: 1.75rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .contact-main>.contact-container {
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 1.75rem;
+        width: 90%;
+    }
+}
